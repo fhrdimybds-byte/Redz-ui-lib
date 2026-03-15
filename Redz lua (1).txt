@@ -14,13 +14,13 @@ local redzlib = {
 	Themes = {
 		Darker = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(25.5, 25.5, 25.5)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 20, 20)),
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(10, 10, 20)),
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 20, 20))
 			}),
 			["Color Hub 2"] = Color3.fromRGB(20, 20, 20),
 			["Color Stroke"] = Color3.fromRGB(40, 40, 40),
-			["Color Theme"] = Color3.fromRGB(87, 101, 242),
+			["Color Theme"] = Color3.fromRGB(68, 126, 219),
 			["Color Text"] = Color3.fromRGB(243, 243, 243),
 			["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
 		},
@@ -77,9 +77,9 @@ local redzlib = {
 		Version = "1.1.0"
 	},
 	Save = {
-		UISize = {440, 0, 240},
+		UISize = {479, 0, 267},
 		TabSize = 160,
-		Theme = "NeonPurple"
+		Theme = "Darker"
 	},
 	Settings = {},
 	Connection = {},
@@ -977,7 +977,7 @@ local SetProps, SetChildren, InsertTheme, Create do
 		end
 	end
 	
-	pcall(Save, "redz library V5.json")
+	pcall(Save, "Sarturn ui library V5.json")
 end
 
 local Funcs = {} do
@@ -1119,7 +1119,7 @@ local GetFlag, SetFlag, CheckFlag do
 end
 
 local ScreenGui = Create("ScreenGui", CoreGui, {
-	Name = "redz-library-v5",
+	Name = "Sarturn-library-v5",
 }, {
 	Create("UIScale", {
 		Scale = UIScale,
@@ -1230,7 +1230,7 @@ end
 
 AddEle("Corner", function(parent, CornerRadius)
 	local New = SetProps(Create("UICorner", parent, {
-		CornerRadius = CornerRadius or UDim.new(0, 7)
+		CornerRadius = CornerRadius or UDim.new(0,10)
 	}), props)
 	return New
 end)
@@ -1607,7 +1607,7 @@ function redzlib:MakeWindow(Configs)
 	function Window:CloseBtn()
 		local Dialog = Window:Dialog({
 			Title = "Close",
-			Text = "You Want Close Ui?",
+			Text = "You Want Close Sarturn hub?",
 			Options = {
 				{"Confirm", function()
 					ScreenGui:Destroy()
