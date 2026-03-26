@@ -77,10 +77,10 @@ local redzlib = {
 		Version = "1.1.0"
 	},
 	Save = {
-		UISize = {550, 380},
-		TabSize = 160,
-		Theme = "NeonPurple"
-	},
+    UISize = {450, 300},
+    TabSize = 130,
+    Theme = "NeonPurple"
+},
 	Settings = {},
 	Connection = {},
 	Instances = {},
