@@ -77,10 +77,11 @@ local redzlib = {
 		Version = "1.1.0"
 	},
 	Save = {
-    UISize = {450, 300},
-    TabSize = 130,
+    UISize = {550, 315}, -- Diminuí um pouco a altura para remover o espaço vazio embaixo
+    TabSize = 160,       -- Mantém a aba lateral larga como no print
     Theme = "NeonPurple"
 },
+
 	Settings = {},
 	Connection = {},
 	Instances = {},
