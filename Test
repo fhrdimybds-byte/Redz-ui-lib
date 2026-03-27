@@ -26,9 +26,9 @@ local redzlib = {
 		},
 		VoidBlack = {
     ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(6, 46, 61)),
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(3, 3, 5)),
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(6, 46, 61))
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 5, 30)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(25, 10, 50)),
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 5, 30))
     }),
     ["Color Hub 2"] = Color3.fromRGB(2, 2, 4),
     ["Color Stroke"] = Color3.fromRGB(25, 25, 30),
