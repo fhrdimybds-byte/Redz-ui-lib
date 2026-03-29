@@ -13,38 +13,17 @@ local CoreGui = (gethui and gethui()) or game:GetService("CoreGui");
 local redzlib = {
 	Themes = {
 		Darker = {
-    -- Gradiente principal do Hub (mais suave e profundo)
-    ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(18, 18, 20)),   -- Quase preto com leve tom azul
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(28, 28, 32)),   -- Meio tom mais claro
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(18, 18, 20))
-    }),
-
-    -- Cor de fundo secundária (para seções, frames internos)
-    ["Color Hub 2"] = Color3.fromRGB(22, 22, 26),
-
-    -- Stroke / Bordas (mais visível e elegante)
-    ["Color Stroke"] = Color3.fromRGB(45, 45, 52),
-
-    -- Cor do Tema (Accent) - Roxo-azulado moderno e vibrante
-    ["Color Theme"] = Color3.fromRGB(100, 120, 255),     -- Roxo-azul bonito
-
-    -- Texto principal (branco com leve brilho)
-    ["Color Text"] = Color3.fromRGB(245, 245, 250),
-
-    -- Texto secundário / descrições
-    ["Color Dark Text"] = Color3.fromRGB(170, 170, 185),
-
-    -- Cores extras recomendadas (melhoram muito a aparência)
-    ["Color Hover"] = Color3.fromRGB(110, 130, 255),     -- Hover do tema
-    ["Color Success"] = Color3.fromRGB(80, 200, 120),
-    ["Color Warning"] = Color3.fromRGB(255, 180, 60),
-    ["Color Error"] = Color3.fromRGB(255, 85, 85),
-    
-    -- Transparências suaves
-    ["Transparency"] = 0.15,          -- Para elementos glassmorphism
-    ["Stroke Transparency"] = 0.4
-}
+			["Color Hub 1"] = ColorSequence.new({
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 15, 15)),
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(25, 25, 25)),
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 15, 15))
+			}),
+			["Color Hub 2"] = Color3.fromRGB(30, 30, 30),
+			["Color Stroke"] = Color3.fromRGB(40, 40, 40),
+			["Color Theme"] = Color3.fromRGB(88, 101, 242),
+			["Color Text"] = Color3.fromRGB(243, 243, 243),
+			["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
+		},
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
 				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 40, 40)),
