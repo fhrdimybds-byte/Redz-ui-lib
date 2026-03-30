@@ -21,7 +21,7 @@ local redzlib = {
     
     ["Color Hub 2"] = Color3.fromRGB(10, 32, 18),
     
-    ["Color Stroke"] = Color3.fromRGB(90, 255, 130),                     -- Stroke forte com glow
+    ["Color Stroke"] = Color3.fromRGB(44, 130, 66),                     -- Stroke forte com glow
     
     ["Color Theme"] = Color3.fromRGB(35, 255, 95),                       -- Verde neon vibrante
     
