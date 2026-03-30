@@ -12,18 +12,23 @@ local CoreGui = (gethui and gethui()) or game:GetService("CoreGui");
 
 local redzlib = {
 	Themes = {
-	Green = {
-            ["Color Hub 1"] = ColorSequence.new({
-                ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 70, 20)),
-                ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 100, 30)),
-                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 70, 20))
-            }),
-            ["Color Hub 2"] = Color3.fromRGB(25, 85, 25),
-            ["Color Stroke"] = Color3.fromRGB(35, 120, 35),
-            ["Color Theme"] = Color3.fromRGB(65, 255, 65),
-            ["Color Text"] = Color3.fromRGB(240, 240, 240),
-            ["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
-        },
+	EmeraldVoid = {
+    ["Color Hub 1"] = ColorSequence.new({
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 18, 10)),      -- Quase preto com verde
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(12, 48, 22)),     -- Meio profundo
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(5, 18, 10))
+    }),
+    
+    ["Color Hub 2"] = Color3.fromRGB(10, 32, 18),
+    
+    ["Color Stroke"] = Color3.fromRGB(90, 255, 130),                     -- Stroke forte com glow
+    
+    ["Color Theme"] = Color3.fromRGB(35, 255, 95),                       -- Verde neon vibrante
+    
+    ["Color Text"] = Color3.fromRGB(250, 255, 245),                      -- Texto quase branco com leve verde
+    
+    ["Color Dark Text"] = Color3.fromRGB(145, 215, 165)                  -- Texto secundário elegante
+},
 		Darker = {
 			["Color Hub 1"] = ColorSequence.new({
 				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 20, 20)),
@@ -67,7 +72,7 @@ local redzlib = {
 	Save = {
 		UISize = {550, 380},
 		TabSize = 160,
-		Theme = "Green"
+		Theme = "EmeraldVoid"
 	},
 	Settings = {},
 	Connection = {},
