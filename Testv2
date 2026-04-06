@@ -1,5 +1,5 @@
 --[[
-Redz Ui Library Modified By WertDev Theme: Saturn 
+Redz Ui Library Modified By WertDev Theme: Green 
 ]]
 
 local MarketplaceService = game:GetService("MarketplaceService")
@@ -16,17 +16,22 @@ local CoreGui = (gethui and gethui()) or game:GetService("CoreGui");
 
 local redzlib = {
 	Themes = {
-		Saturn = {
+		EmeraldVoid = {
     ["Color Hub 1"] = ColorSequence.new({
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)),      
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(31, 30, 30)),     
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(217, 212, 212))
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(4, 12, 8)),      -- Preto-esverdeado profundo
+        ColorSequenceKeypoint.new(0.40, Color3.fromRGB(10, 38, 22)),    -- Meio rico e escuro
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(4, 12, 8))       -- Volta ao escuro
     }),
-    ["Color Hub 2"] = Color3.fromRGB(0, 0, 0),
-    ["Color Stroke"] = Color3.fromRGB(20, 20, 20),                     
-    ["Color Theme"] = Color3.fromRGB(164, 171, 166),                       
-    ["Color Text"] = Color3.fromRGB(250, 255, 255),                      
-    ["Color Dark Text"] = Color3.fromRGB(255, 255, 255)                  
+    
+    ["Color Hub 2"] = Color3.fromRGB(8, 28, 16),                        -- Fundo secundário mais elegante
+    
+    ["Color Stroke"] = Color3.fromRGB(31, 82, 48),                    -- Neon esmeralda forte com glow
+    
+    ["Color Theme"] = Color3.fromRGB(45, 255, 105),                     -- Verde neon vibrante e moderno
+    
+    ["Color Text"] = Color3.fromRGB(248, 255, 242),                     -- Texto quase branco com leve tom verde
+    
+    ["Color Dark Text"] = Color3.fromRGB(155, 225, 175)                 -- Texto secundário suave e elegante
 },
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
