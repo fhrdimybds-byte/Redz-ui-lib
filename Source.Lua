@@ -36,7 +36,7 @@ local redzlib = {
     
     ["Color Hub 2"] = Color3.fromRGB(14, 12, 26),                        -- Fundo secundário elegante
     
-    ["Color Stroke"] = Color3.fromRGB(140, 80, 255),                     -- Roxo neon forte e bonito
+    ["Color Stroke"] = Color3.fromRGB(42, 19, 84),                     -- Roxo neon forte e bonito
     
     ["Color Theme"] = Color3.fromRGB(170, 100, 255),                     -- Roxo vibrante premium
     
